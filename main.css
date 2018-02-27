@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95px;
+  background-color: #dda1b2;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: monospace;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  color: #ee1b9b;
+}
+
+.inputSection {
+  margin: 30px 0px 50px 0px;
+  width: 300px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+  border-radius: 8px;
+  text-indent: 5px;
+  }
+
+.add {
+  margin-top: 10px;
+  }
+
+.spaceman {
+  margin: 30px 0px;
+  border-radius: 50px;
+  border-width: thick;
+  border-color: black;
+  border-style: dotted;
+}
+
+button {
+  background-color: black;
+  color: #ee1b9b;
+  border-style: groove;
+  border-radius: 8px;
+}
