@@ -42,6 +42,7 @@ input {
   margin-top: 10px;
   border-radius: 8px;
   text-indent: 5px;
+  font-variant-caps
   }
 
 .add {
