@@ -7,6 +7,17 @@ body {
   background-color: #dda1b2;
 }
 
+h2 {
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: monospace;
+  text-transform: lowercase;
+  margin: 30px 20px 20px 20px;
+  flex-flow: wrap;
+  color: #ffffff;
+  justify-content: center;
+}
+
 h1 {
   font-weight: bolder;
   font-size: 60px;
