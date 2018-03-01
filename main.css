@@ -62,3 +62,26 @@ button {
   border-style: groove;
   border-radius: 8px;
 }
+
+.resultSection {
+  height: 100px;
+  font-weight: bolder;
+  font-family:monospace;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #ee1b9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: flicker 2s infinite;
+}
+
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
