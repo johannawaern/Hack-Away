@@ -31,15 +31,15 @@
 
         var options = []
         var submit = function(){
-          $('.inputSection').hide()
+          $('.inputSection').slideUp()
           $('.resultSection').css('display', 'flex')
           $('input').each(function(){
             options.push($(this).val())
           })
-        var winner = options[Math.floor(Math.random() * options.length)]
-        $('.resultSection').text(winner)
-        $('.submit').hide()
-        $('.intro').hide()
+          var winner = options[Math.floor(Math.random() * options.length)]
+          $('.resultSection').text(winner)
+          $('.submit').slideUp()
+          $('.intro').fadeOut()
         }
         $('.submit').click(submit)
       })
