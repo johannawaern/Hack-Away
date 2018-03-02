@@ -51,10 +51,6 @@ input {
 
 .spaceman {
   margin: 30px 0px;
-  border-radius: 50px;
-  border-width: thick;
-  border-color: black;
-  border-style: dotted;
 }
 
 button {
